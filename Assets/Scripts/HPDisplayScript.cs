@@ -11,7 +11,6 @@ public class HPDisplayScript : MonoBehaviour {
 	}
 
     public int max;
-    public int test;
 
     public void ChangePoints(int p)
     {
@@ -27,8 +26,5 @@ public class HPDisplayScript : MonoBehaviour {
         }
     } 
 
-	// Update is called once per frame
-	void Update () {
-        ChangePoints(test);
-	}
+
 }
